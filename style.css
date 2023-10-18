@@ -1,3 +1,7 @@
+body {
+    padding: 2px;
+}
+
 h1 {
     color: #ffd100;
 }
@@ -59,9 +63,33 @@ li {
     width: 500px;
 }
 
+#div-hab ul li:nth-child(odd){
+    font-weight:600;
+    color: #494949
+}
+
 #sobremim {
     background-color: #333533;
     text-align: center;
     width: 500px;
     color: #d6d6d6;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+#fotoperfil {
+    float: left;
+    height: 190px;
+    padding: 5px;
+    background-color: #d6d6d6;
+}
+
+.foto-sobre {
+    height: 200px;
+    position: relative;
+}
+
+#nome {
+    text-align: center;
 }
