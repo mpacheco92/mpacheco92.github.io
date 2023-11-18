@@ -1,18 +1,52 @@
-body {
-    padding: 2px;
-}
-
-h1 {
-    color: #ffd100;
-}
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    background-color: #202020;
-    font-family: 'Nunito', sans-serif;
+    background-image: url("fundo-preto-abstrato-da-grade-digital.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.nav1 {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.288);
+    justify-content: center;
+    align-items: center;
+}
+
+.links-menu {
+    display: flex;
+    padding: 2%;
+    gap: 10%;
+    flex-basis: 30%;
+}
+
+.links-menu a {
+    text-decoration: none;
+    color: #ffee32;
+    text-transform: lowercase;
+}
+
+.icons-menu {
+    display: flex;
+    width: auto;
+    gap: 30px;
+
+}
+
+.icons-menu i {
+    color: #ffee32;
+    font-size: 30px;
+}
+
+.bi-exclude {
+    color: #ffee32;
+    font-size: 40px;
+    flex-basis: 35%;
 }
 
 .git {
@@ -29,17 +63,6 @@ body {
 
 .html {
     font-size: 10px;
-}
-
-#div1 a {
-    border: none;
-    background-color: #ffd100;
-    color: #202020;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 500px;
 }
 
 #btn2 a {
@@ -63,33 +86,43 @@ li {
     width: 500px;
 }
 
-#div-hab ul li:nth-child(odd){
-    font-weight:600;
+#div-hab ul li:nth-child(odd) {
+    font-weight: 600;
     color: #494949
 }
 
-#sobremim {
-    background-color: #333533;
-    text-align: center;
-    width: 500px;
-    color: #d6d6d6;
-    position: absolute;
-    left: 300px;
-    top: 100px;
-}
-
-#fotoperfil {
-    float: left;
-    height: 190px;
-    padding: 5px;
-    background-color: #d6d6d6;
+.foto-perfil {
+    background-image: url("foto-perfil-removebg-preview.png");
+    border: 8px solid rgba(0, 0, 0, 0.288);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 350px;
+    height: 350px;
+    padding: 0;
 }
 
 .foto-sobre {
-    height: 200px;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 5%;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.288);
 }
 
 #nome {
-    text-align: center;
+    color: #ffee32
+}
+
+#sobremim {
+    color: #ffee32
 }
