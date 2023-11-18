@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("fundo-preto-abstrato-da-grade-digital.jpg");
+    background-image: url("imagens/fundo-preto-abstrato-da-grade-digital.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@ li {
 }
 
 .foto-perfil {
-    background-image: url("foto-perfil-removebg-preview.png");
+    background-image: url("imagens/foto-perfil-removebg-preview.png");
     border: 8px solid rgba(0, 0, 0, 0.288);
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
